@@ -1,0 +1,95 @@
+body {
+    background-image: url('../imagens/Elden-Header.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+p, h1, h2, strong, th, td {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+strong {
+    font-size: 1.8em;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: rgb(23, 203, 194);
+}
+
+#menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.table-background {
+    border: 2px solid rgba(12, 12, 12, 0.3);
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /
+}
+
+.table-large {
+    width: 80%;
+    max-width: 800px;
+}
+
+.table-small {
+    width: 60%;
+    max-width: 600px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
