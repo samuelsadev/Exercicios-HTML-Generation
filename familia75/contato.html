@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel Almeida de Sa">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="center">Samuel Alemida de Sá</h1>
+
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+        <a href="world.html">Regiões do Jogo</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+
+    <div class="form-container">
+        <h2>Contato</h2>
+        <form action="process_form.php" method="post">
+
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" name="nome" onkeyup='valida_nome()'>
+            <div id="txtNome"></div>
+            <br>
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="email" onkeyup='valida_email()'>
+            <div id="txtEmail"></div>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup='valida_assunto()'></textarea>
+    
+            <div class="button-container">
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js">
+
+    </script>
+
+</body>
+</html>
